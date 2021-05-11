@@ -1,0 +1,6 @@
+columns format version: 1
+4 columns:
+`id` UInt64
+`duration` Float64
+`url` String
+`created` DateTime

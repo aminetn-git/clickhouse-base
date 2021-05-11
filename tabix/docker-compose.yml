@@ -1,0 +1,10 @@
+version: "3"
+services:
+  tabix:
+    build: .
+    ports:
+      - '8085:80'
+    environment:
+      CH_NAME: ch_server
+      CH_HOST: 'ch_server:8123'
+   
